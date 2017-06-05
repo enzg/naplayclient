@@ -1,0 +1,7 @@
+export const USER_LOGIN = 'USER_LOGIN'
+export const USER_LOGOUT = 'USER_LOGOUT'
+export const RETRIVE_USER = 'RETRIVE_USER'
+export const SHOW_ROUTER = 'SHOW_ROUTER'
+export const UPDATE_ROLE = 'UPDATE_ROLE'
+export const UPDATE_USERNAME = 'UPDATE_USERNAME'
+export const CHANGE_PASS = 'CHANGE_PASS'

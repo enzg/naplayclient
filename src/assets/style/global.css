@@ -1,0 +1,186 @@
+.er-body-view{
+  position: absolute;
+  top:50px;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #F6F8F9;
+}
+.er-nav-menu{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #1f2d3d;
+}
+.er-top-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #1F2D3D;
+}
+
+.er-top-bar .er-logo-font{
+  float: left;
+  margin-left: 30px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.er-top-bar .er-logo-font a{
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.er-top-bar .er-right-tool{
+  float:right;
+  height: 50px;
+  font-size: 0;
+}
+
+.er-top-bar .er-right-tool li{
+  display: inline-block;
+  padding: 0 14px;
+  border-left: 2px solid #101E2F;
+  transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;	
+  -webkit-transition: background-color 0.3s;	
+  -o-transition: background-color 0.3s;
+}
+.er-top-bar .er-right-tool li:hover{
+  cursor: pointer;
+  background-color: #101E2F;
+}
+
+.er-top-bar .er-tool-exit{
+  height: 50px;
+  line-height: 50px;
+}
+.er-top-bar .er-tool-exit a{
+  font-size: 14px;
+  color: #fff;
+}
+
+.er-frame-view{
+  position: absolute;
+  top: 0;
+  left: 200px;
+  right: 0;
+  height: 100%;
+  background-color: #eaedf1;
+}
+
+.er-frame-container{
+  margin: 0 8px;
+}
+
+.er-frame-wrapper{
+  position: relative;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.er-block-container{
+  margin: 16px 8px;
+  padding: 16px 16px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.er-frame-title h1{
+  padding-left: 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  border-left: 4px solid #1D8CE0;
+}
+
+.er-login-container{
+  margin: 96px auto;
+  padding-bottom: 100px;
+  max-width: 680px;
+}
+.er-login-title{
+  margin-top:26px;
+  margin-bottom: 36px;
+  color:#324157;
+  text-align: center;
+}
+.er-login-form{
+  padding-right: 20px;
+}
+.er-login-button{
+  margin-top: 32px;
+  width: 100%;
+}
+
+.er-index{
+  margin: 100px;
+  text-align: center;
+}
+.er-index h1{
+  color: #324157;
+}
+
+.er-table-bar{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  text-align: left;
+  background-color: #E5E9F2;
+  text-align:justify;
+  text-align-last:justify
+}
+
+.er-table-bar .er-table-operation{
+  display: inline-block;
+}
+
+.er-table-bar .er-table-search{
+  display: inline-block;
+  width: 200px;
+}
+
+.er-table-paging{
+  margin-top: 42px;
+  margin-bottom: 48px;
+  text-align: right;
+}
+
+
+/**** 组件调整 ****/
+.el-loading-mask{
+  background-color: rgba(255,255,255,.5);
+}
+
+.er-table-expand {
+  font-size: 0;
+}
+
+.er-table-expand label {
+  width: 90px;
+  color: #99a9bf;
+}
+
+.er-table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.er-long-select input{
+  width: 220px;
+}
+
+
+/* 动效 */
+.fade-enter-active{
+  transition: all .3s ease-in;
+}
+.fade-enter{
+  opacity: 0;
+  transform: translateY(50px);
+}
